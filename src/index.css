@@ -1,0 +1,44 @@
+* {
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 700;
+}
+body {
+  padding: 5vh;
+  text-align: center;
+}
+input {
+  border: 2px solid lightcoral;
+  border-radius: 10px;
+  padding: 5px;
+  background-color: rgba(176, 196, 222, 0.397);
+}
+
+.searchBar{
+  display: flex;
+  justify-content: center;
+}
+
+.suggestions-list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.singleProducts {
+  display: flex;
+  gap: 20px;
+  padding: 5px;
+  border-radius: 20pt;
+  border: 2px solid ;
+  justify-content: center;
+}
+
+.productName{
+  color: crimson;
+}
+
+.productBrand{
+  color:sandybrown;
+}
+
+img{border-radius: 5pt;}
