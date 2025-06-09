@@ -60,9 +60,10 @@ function App() {
           <ul className="suggestions-list">
             {results.map((item) => (
               <li className="singleProducts" key={item.id}>
+                                <img src={item.image} alt={item.name} width={50} />
+
                 <p className="productName"> {item.name}</p>{" "}
                 <p className="productBrand"> {item.brand}</p>{" "}
-                <img src={item.image} alt={item.name} width={50} />
               </li>
             ))}
           </ul>
